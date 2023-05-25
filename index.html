@@ -1,73 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Odin Foundations - Landing Page</title>
-  </head>
-  <body>
-    <div class="body">
-    <div class="header">
 
-      <div class="nav">
-        <span class="header-logo">Header Logo</span>
-        <ul class="header-ul">
-          <li class="header-link">header link one</li>
-          <li class="header-link">header link two</li>
-          <li class="header-link">header link three</li>
-        </ul>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Odin Foundations - Landing Page</title>
+</head>
 
-      <div class="header-description">
-        <div class="description-text">
-          <h1 id="hero-text">This website is awesome</h1>
-          <p id="hero-secondaryText">
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast.
-          </p>
-          <button>Sign up</button>
-        </div>
-        <img src="" alt="this is the header description image placeholder" />
-      </div>
-    </div>
+<body>
+  <div class="header">
 
-    <div class="content">
-        <div class="random-infoBox">
-      <h2>Some random information</h2>
-      <div class="content-imageBox">
-      <ul class="content-ul">
-        <li class="content-image">this is some subtext under the first illustration image</li>
-        <li class="content-image">this is some subtext under the second illustration image</li>
-        <li class="content-image">this is some subtext under the third illustration image</li>
-        <li class="content-image">this is some subtext under the fourth illustration image</li>
+    <div class="nav">
+      <span class="header-logo">Header Logo</span>
+      <ul class="header-ul">
+        <li class="header-link">header link one</li>
+        <li class="header-link">header link two</li>
+        <li class="header-link">header link three</li>
       </ul>
     </div>
+
+    <div class="header-description">
+      <div class="description-text">
+        <h1 id="hero-text">This website is awesome</h1>
+        <p id="hero-secondaryText">
+          This website has some subtext that goes here under the main title.
+          It's a smaller font and the color is lower contrast.
+        </p>
+        <button id="hero-button">Sign up</button>
+      </div>
+      <img id="description-right" src="" alt="this is the header description image placeholder" />
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="random-infoBox">
+      <div class="random-infoBoxContainer">
+        <h1 id="random-text">Some random information</h1>
+        <div>
+          <ul class="content-ul">
+            <li class="content-image">
+              <div class="randomBox"></div>this is some subtext under the first illustration or image
+            </li>
+            <li class="content-image">
+              <div class="randomBox"></div>this is some subtext under the second illustration or image
+            </li>
+            <li class="content-image">
+              <div class="randomBox"></div>this is some subtext under the third illustration or image
+            </li>
+            <li class="content-image">
+              <div class="randomBox"></div>this is some subtext under the fourth illustration or image
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-      <div class="quote-container">
-        <p>
-          <span id="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe
+    <div class="quote-container">
+      <div class="quote">
+        <span id="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe
           it's just filling up space, or maybe people will actually read it. Who
           knows? All i know is that it looks nice</span>
-          <br />
-          <span id="quote-author">-Thor, God of Thunder</span>
-        </p>
-        
+        <br />
+        <span id="quote-author">-Thor, God of Thunder</span>
       </div>
+    </div>
 
+    <div class="action-container-total">
       <div class="action-container">
-        <div class="action-left-container">
-          <p id="action-header">Call to action! It's time!</p>
-          <p id="action-text">
-            Sing up for our product by clicking that button right over there!
+        <div class="action-leftContainer">
+          <p> <span id="action-header">Call to action! It's time!</span>
+            <br />
+            <span id="action-text">Sign up for our product by clicking that button right over there!
           </p>
         </div>
-        <div class="action-right-container"><button>Sign up</button></div>
+        <div class="action-rightContainer"><button id="action-button">Sign up</button></div>
       </div>
     </div>
 
     <div class="footer">Copyright © The Odin Project 2023</div>
-  </body>
+</body>
+
 </html>

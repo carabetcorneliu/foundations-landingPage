@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: first baseline;
+    gap: 23px;
 }
 
 .nav {
@@ -21,7 +22,8 @@ body {
 
 .header-logo {}
 
-.header-link {}
+.header-link {
+}
 
 .header-description {
     display: flex;
@@ -58,6 +60,7 @@ body {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -100,7 +103,7 @@ body {
     flex: 1 1 0;
     gap: 15px;
     flex-direction: column;
-    max-width: 17%;
+    max-width: 20%;
 }
 
 .randomBox {
